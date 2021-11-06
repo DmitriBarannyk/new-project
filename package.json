@@ -33,10 +33,10 @@
   "author": "DmitriBarannyk",
   "license": "WTFPL",
   "devDependencies": {
-    "@babel/core": "^7.12.13",
+    "@babel/core": "^7.16.0",
     "@babel/eslint-parser": "^7.12.13",
     "@babel/preset-env": "^7.12.13",
-    "@babel/register": "^7.12.13",
+    "@babel/register": "^7.16.0",
     "@zoxon/emitty": "^1.4.2",
     "babelify": "^10.0.0",
     "browser-sync": "^2.26.14",
