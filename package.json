@@ -30,7 +30,7 @@
       "not dead",
       "not IE 11"
     ],
-    "author": "berdnikovdima.ru",
+    "author": "DmitriBarannyk",
     "license": "WTFPL",
     "devDependencies": {
       "@babel/core": "^7.12.13",
