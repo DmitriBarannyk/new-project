@@ -1,10 +1,14 @@
 {
-    "extends": "airbnb-base",
-    "parser": "@babel/eslint-parser",
-    "linebreak-style": ["error", "windows"],
-    "env": {
-        "browser": true,
-        "jquery": true
-    }
+        "extends": "airbnb-base",
+        "parser": "@babel/eslint-parser",
+        "env": {
+                "browser": true
+                
+        },
+
+        "rules": {
+        "import/no-extraneous-dependencies": ["error", {"devDependencies": ["gulpfile.babel.js", "gulp/**/*"]}],
+        "linebreak-style": 0
+    }	
 }
 

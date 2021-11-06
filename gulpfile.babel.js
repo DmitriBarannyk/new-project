@@ -1,13 +1,3 @@
-const adventurer = {
-  name: 'Alice',
-  cat: {
-    name: 'Dinah'
-  }
-};
+import config from './gulp/config';
 
-const dogName = adventurer.dog?.name;
-console.log(dogName);
-// expected output: undefined
-
-console.log(adventurer.someNonExistentMethod?.());
-// expected output: undefined
+config.setEnv();
